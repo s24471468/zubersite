@@ -80,15 +80,19 @@
       <v-layout row wrap>
         <v-flex xs12>
           <h1 class="display-4 py-5 my-5">A Platform for Services and Skills.</h1>
-          <p class="subheading">Vendr is a platform to help you find the services you need.</p>
+          <h4 class="display-1">Vendr is a platform to help you find the services you need.</h4>
         </v-flex>
+      </v-layout>
+      <v-layout row wrap>
         <v-flex xs12>
           <h1 class="display-4 py-5 my-5">Make Money.</h1>
-          <p class="subheading">Sign up to be a service or skill provider today and start reaching out to customers.</p>
+          <h4 class="display-1">Sign up to be a service or skill provider today and start reaching out to customers.</h4>
         </v-flex>
+      </v-layout>
+      <v-layout row wrap>
         <v-flex xs12>
           <h1 class="display-4 py-5 my-5">Get Things Done.</h1>
-          <p class="subheading">Sign up to be a service or skill provider today and start reaching out to customers.</p>
+          <h4 class="display-1">Find the best local services, all from one app.</h4>
         </v-flex>
       </v-layout>
     </v-container>
@@ -106,13 +110,13 @@
             src: require('../assets/vendr_screenshot.png')
           },
           {
-            src: require('../assets/cleaning.jpg')
+            src: require('../assets/music.png')
           },
           {
             src: require('../assets/cleaning-tips.jpg')
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
+            src: require('../assets/tennis.jpg')
           }
         ],
         show1: false,

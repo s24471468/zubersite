@@ -18,6 +18,18 @@
       <router-view></router-view>
     </v-content>
 
+    <v-container fluid>
+      <v-layout>
+        <v-flex xs12>
+          <v-sheet
+            class="d-flex mt-5"
+            color="primary"
+          height="500">
+          </v-sheet>
+        </v-flex>
+      </v-layout>
+    </v-container>
+
   </v-app>
 </template>
 
